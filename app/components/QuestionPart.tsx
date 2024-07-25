@@ -34,19 +34,19 @@ export const QuestionPart: FC<iProps> = ({
   const readValue = (a: string, b: string) => {
     // Remove extra spaces and split by semicolon to get individual properties
     let textValue = a
-      .split(";")
-      .map((prop) => prop.trim())
-      .filter(Boolean)
-      .sort();
+      ?.split(";")
+      ?.map((prop) => prop.trim())
+      ?.filter(Boolean)
+      ?.sort();
     let answerValue = b
-      .split(";")
-      .map((prop) => prop.trim())
-      .filter(Boolean)
-      .sort();
+      ?.split(";")
+      ?.map((prop) => prop.trim())
+      ?.filter(Boolean)
+      ?.sort();
 
     // Join the sorted arrays back into strings
-    let aSorted = textValue.join("; ");
-    let bSorted = answerValue.join("; ");
+    let aSorted = textValue?.join("; ");
+    let bSorted = answerValue?.join("; ");
 
     // Compare the resulting strings
     return aSorted === bSorted;
@@ -76,7 +76,7 @@ export const QuestionPart: FC<iProps> = ({
           <p>user</p>
         </div>
         <p className="bg-orange-50 h-[35px] text-[16px] w-[100px] rounded-sm flex justify-center items-center">
-          level {showPath! + 1}
+          level {showPath!}
         </p>
       </section>
 

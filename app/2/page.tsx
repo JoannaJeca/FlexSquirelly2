@@ -3,21 +3,22 @@
 import React, { useContext, useEffect, useState } from "react";
 import { QuestionPart } from "../components/QuestionPart";
 import { DisplayPart } from "../components/DisplayPart";
-import { usePathname } from "next/navigation";
 import data from "../data/data.json";
+import { usePathname } from "next/navigation";
 import { Context } from "../global/provider";
+
 const page = () => {
   const { entry, setEntry } = useContext(Context);
-
+  const value = false;
   const [text, setText] = useState<string>("");
 
   const path = usePathname();
   const val = path.replace("/", "");
 
-  let showPath = 0;
+  let showPath = 1;
 
   if (val === "") {
-    showPath = 0;
+    showPath = 1;
   } else {
     showPath = parseInt(val);
   }
