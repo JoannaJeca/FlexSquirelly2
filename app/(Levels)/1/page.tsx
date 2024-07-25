@@ -1,11 +1,11 @@
 "use client";
 
 import React, { useContext, useEffect, useState } from "react";
-import { QuestionPart } from "../components/QuestionPart";
-import { DisplayPart } from "../components/DisplayPart";
+import { QuestionPart } from "../../components/QuestionPart";
+import { DisplayPart } from "../../components/DisplayPart";
 import { usePathname } from "next/navigation";
-import data from "../data/data.json";
-import { Context } from "../global/provider";
+import data from "../../data/data.json";
+import { Context } from "../../global/provider";
 const page = () => {
   const { entry, setEntry } = useContext(Context);
 
