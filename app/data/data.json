@@ -16,5 +16,23 @@
     "question": "If you find yourself forgetting the possible values for a property, you can click on the property name to view them. Try clicking on justify-content.",
     "insight": " Help all three squirrels find their burrows just by using justify-content. This time, the trees have lots of space all around them.",
     "answer": "justify-content:space-around;"
+  },
+  {
+    "id": 4,
+    "question": "Now the burrows on the edges have drifted to the forest, increasing the space between them. Use justify-content. This time, the burrows have equal spacing between them.",
+    "insight": " Help all three squirrels find their burrows just by using justify-content. This time, the trees have lots of space in between them.",
+    "answer": "justify-content:space-between;"
+  },
+  {
+    "id": 3,
+    "question": "If you find yourself forgetting the possible values for a property, you can click on the property name to view them. Try clicking on justify-content.",
+    "insight": " Help all three squirrels find their burrows just by using justify-content. This time, the trees have lots of space all around them.",
+    "answer": "justify-content:space-around;"
+  },
+  {
+    "id": 3,
+    "question": "If you find yourself forgetting the possible values for a property, you can click on the property name to view them. Try clicking on justify-content.",
+    "insight": " Help all three squirrels find their burrows just by using justify-content. This time, the trees have lots of space all around them.",
+    "answer": "justify-content:space-around;"
   }
 ]
